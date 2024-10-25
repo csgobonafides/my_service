@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+  redis:
+    image: 'redis:alpine'
+    container_name: redis_db
+    restart: always
+    volumes:
+      - redis-data:/data
+    ports:
+      - '6379:6379'
+
+  app:
+    container_name: api
+    build: ./service_authentication
+    ports:
+      - '8000:8000'
+    restart: always
+
+  app2:
+    container_name: api2
+    build: ../service_parsis
+    ports:
+      - '8001:8001'
+    restart: always
+
+volumes:
+  redis-data:

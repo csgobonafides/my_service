@@ -1,0 +1,7 @@
+DEBUG (24/10/2024 10:03:05): Using proactor: IocpProactor (Line: 630) [proactor_events.py]
+DEBUG (24/10/2024 11:27:39): Using proactor: IocpProactor (Line: 630) [proactor_events.py]
+INFO (24/10/2024 11:27:46): запрос эндпоинту - docs - обработан за 0.000000|ms. (Line: 14) [time_middle.py]
+INFO (24/10/2024 11:27:46): запрос эндпоинту - openapi.json - обработан за 0.000000|ms. (Line: 14) [time_middle.py]
+INFO (24/10/2024 11:27:54): запрос эндпоинту - data_film/лифт - обработан за 0.000000|ms. (Line: 14) [time_middle.py]
+DEBUG (24/10/2024 11:30:42): Using proactor: IocpProactor (Line: 630) [proactor_events.py]
+INFO (24/10/2024 11:31:01): запрос эндпоинту - data_film/лифт - обработан за 922.000000|ms. (Line: 14) [time_middle.py]

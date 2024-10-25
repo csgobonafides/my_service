@@ -1,0 +1,3 @@
+[submodule "service_authentication"]
+	path = service_authentication
+	url = https://github.com/csgobonafides/service_authentication.git
